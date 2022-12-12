@@ -23,6 +23,7 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
+    <script src="/javascript/index.js"></script>
 </head>
 <body>
     <section>
@@ -49,18 +50,22 @@
     </section>
 
     <section class="second-section">
-        <form action="" class="form-file">
-            <h1 class="form-text text">Загрузите свой файл</h1>
-            <div class="file-space">
-                <div class="file-space-content">
-                    <div class="word-img-block">
-                        <img src="i.webp" alt="" class="word-img">
+        <div id="dropZone">
+            <form action="" class="form-file">
+                
+                    <h1 class="form-text text">Загрузите свой файл</h1>
+                    <div class="file-space">
+                        <div class="file-space-content">
+                            <div class="word-img-block">
+                                <img src="i.webp" alt="" class="word-img">
+                            </div>
+                            <p class="space-content-not-a-text text">Перетащите сюда свой файл</p>
+                            <div class="space-content-not-a-text text">или <input class="space-content-link" type="file" ></div>
+                        </div>
                     </div>
-                    <p class="space-content-not-a-text text">Перетащите сюда свой файл</p>
-                    <div class="space-content-not-a-text text">или <a class="space-content-link" href="#">загрузить</a></div>
-                </div>
-            </div>
-        </form>
+                
+            </form>
+        </div>
     </section>
 </body>
 </html>

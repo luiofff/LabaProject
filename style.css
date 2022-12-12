@@ -164,6 +164,24 @@ body {
 
 /* adapt */
 
+#dropZone {
+    width: auto;
+    height: auto;
+}
+
+#dropZone.hover {
+    background: #ddd;
+    border-color: rgb(246, 255, 0);
+}
+
+#dropZone.error {
+    border-color: #f00;
+}
+
+#dropZone.drop {
+    border-color: #0f0;
+}
+
 
 
 @media screen and (max-width:1077px) {
